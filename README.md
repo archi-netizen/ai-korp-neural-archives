@@ -39,6 +39,6 @@ This research is conducted with a "Security-First" mindset:
 - **Data Privacy:** All processing occurs within a private VPC.
 - **Ethics:** Aligned with the **EU AI Act** regarding transparent data processing and human-in-the-loop verification.
 
-Download the raw architectural taxonomy extracted from the AI-Korp Workshop render: [Master Label List (CSV)](./AmazonRekognitionAllLabels_v3.0.csv)
+Download the raw architectural taxonomy extracted from the AI-Korp Workshop render: [Master Label List (JSON)](./Asset_2_Rekognition_Raw.json)
 ---
 *Note: This is a non-commercial research project exploring workflow optimization for the AEC and Brand Design sectors.*
