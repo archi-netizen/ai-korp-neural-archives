@@ -39,6 +39,16 @@ This research is conducted with a "Security-First" mindset:
 - **Data Privacy:** All processing occurs within a private VPC.
 - **Ethics:** Aligned with the **EU AI Act** regarding transparent data processing and human-in-the-loop verification.
 
-Download the raw architectural taxonomy extracted from the AI-Korp Workshop render: [Master Label List (JSON)](./Asset_2_Rekognition_Raw.json)
+### 🔍 Live Audit: Machine Perception
+I analyzed the primary workshop render using **Amazon Rekognition** to extract a spatial taxonomy.
+
+**Top High-Confidence Labels:**
+* **Architecture:** 99.9%
+* **Factory / Industrial Building:** 99.9%
+* **Person:** 98.6% (Validating human scale)
+* **Manufacturing:** 72.8%
+
+**Raw Data Archive:**
+Download the verified architectural taxonomy: [Master Label List (JSON)](./Asset_2_Rekognition_Raw.json)
 ---
 *Note: This is a non-commercial research project exploring workflow optimization for the AEC and Brand Design sectors.*
