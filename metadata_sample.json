@@ -1,0 +1,16 @@
+{
+  "project": "AI-Korp Workflow Lab",
+  "analysis_date": "2026-04-08",
+  "source_image": "workshop_render_01.jpg",
+  "detected_labels": [
+    { "Name": "Industrial Design", "Confidence": 99.2 },
+    { "Name": "Concrete Floor", "Confidence": 98.5 },
+    { "Name": "Gantry Crane", "Confidence": 94.1 },
+    { "Name": "Backlit Signage", "Confidence": 91.8 }
+  ],
+  "ai_korp_taxonomy": {
+    "primary_basket": "Spatial",
+    "sub_category": "Infrastructure",
+    "summary": "Large-scale industrial research environment featuring high-clearance steel structures and integrated brand identity."
+  }
+}
