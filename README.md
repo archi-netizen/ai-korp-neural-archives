@@ -50,5 +50,39 @@ I analyzed the primary workshop render using **Amazon Rekognition** to extract a
 
 **Raw Data Archive:**
 Download the verified architectural taxonomy: [Master Label List (JSON)](./Asset_2_Rekognition_Raw.json)
+
 ---
 *Note: This is a non-commercial research project exploring workflow optimization for the AEC and Brand Design sectors.*
+
+---
+
+## System Architecture
+To ensure professional-grade security, the pipeline is built on a modular AWS environment. This "sandboxed" approach ensures that design assets remain private and are excluded from public AI training loops.
+
+```mermaid
+graph TD
+    %% Ingestion Layer
+    A[Design Asset: Render/Photo] -->|Upload| B(Amazon S3: Research-Archive)
+    
+    %% Logic Layer
+    B -->|S3 Event Trigger| C{AWS Lambda: Boto3 Script}
+    
+    %% Analysis Layer
+    C -->|Analyze Image| D[Amazon Rekognition: Vision Engine]
+    D -->|Extract Labels| C
+    
+    %% Reasoning Layer
+    C -->|Synthesize Context| E[Amazon Bedrock: Claude 3.5]
+    E -->|Generate Design Summary| C
+    
+    %% Output Layer
+    C -->|Final Metadata| F[(Neural Archive Database)]
+    F --> G{Creative Basket}
+    F --> H{Spatial Basket}
+    F --> I{Intellectual Basket}
+
+    %% AWS Branding Colors
+    style B fill:#FF9900,stroke:#232F3E,color:#fff
+    style C fill:#FF9900,stroke:#232F3E,color:#fff
+    style D fill:#3F8624,stroke:#232F3E,color:#fff
+    style E fill:#D05C45,stroke:#232F3E,color:#fff
