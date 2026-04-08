@@ -1,7 +1,5 @@
-# ai-korp-neural-archives
-Applied Research: Investigating automated design taxonomies using AWS cloud infrastructure for AEC and Branding.
 # AI-KORP | Neural Asset Archives
-**Applied Research: Investigating Automated Design Taxonomies**
+**Applied Research: Investigating automated design taxonomies using AWS cloud infrastructure for AEC and Branding.**
 
 ## 1. Executive Summary
 This repository serves as a technical log for a proof-of-concept study. The objective is to evaluate how cloud-native AI services can transition static architectural and branding archives into "Active Knowledge Bases."
