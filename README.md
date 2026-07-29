@@ -172,8 +172,9 @@ IKEA Dortmund — oblique view (174m altitude, 5/28/2023)
 
 **Type C — Hybrid**
 
-EDEKA Logistik Oberhausen — oblique view (220m altitude)
+EDEKA Logistik Oberhausen — oblique view (220m altitude, 2025)
 ![EDEKA Oberhausen Oblique](./urban-scale-evidence/aerial-imagery/EDEKA_Oberhausen_oblique.png)
+
 ---
 
 ## System Architecture
