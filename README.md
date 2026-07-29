@@ -53,12 +53,12 @@ Below are the sample inputs used to test the pipeline's granularity:
 ### Asset A: Brand Archetype
 *Testing text detection and graphic consistency.*
 
-![Brand Toolkit](./Asset_1_Branding.jpg)
+![Brand Toolkit](./neural-asset-archives/classification-pipeline/industrial-workshop-test/Asset_1_Branding.jpg)
 
 ### Asset B: Spatial Context (Industrial Workshop)
 *Testing complex environment recognition (Gantries, Concrete, Workflow).*
 
-![Workshop Render](./Asset_2_Spatial.jpg)
+![Workshop Render](./neural-asset-archives/classification-pipeline/industrial-workshop-test/Asset_2_Spatial.jpg)
 
 ---
 
