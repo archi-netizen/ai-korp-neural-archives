@@ -133,6 +133,18 @@ This is the urban-scale equivalent of the Ripeness question applied at building 
 
 Schematic visuals illustrating the three fusion types — using fictional brand colour systems to avoid trade dress reproduction — are generated using Google Gemini Imagen and stored in `/urban-scale-evidence/generated-visuals/`. No real brand trade dress is reproduced in these images.
 
+### Fig. 4 — Generic Branded Logistics Corridor
+
+The schematic below shows all three fusion strategies collapsed into a 
+single street-level scene — facade, fleet, hoarding, and gatehouse sharing 
+one fictional colour system. No logos or text. Colour alone performs all 
+identification work.
+
+![Fig 4 Branded Logistics Corridor](./urban-scale-evidence/generated-visuals/Fig4_branded_logistics_corridor.png)
+
+*Fig. 4 — AI-generated schematic. Fictional ochre colour system. 
+No real brand trade dress reproduced. Google Gemini Imagen, 2026.*
+
 ### Coordinates and Attribution
 
 | Facility | Coordinates | Capture Date |
