@@ -139,8 +139,8 @@ Schematic visuals illustrating the three fusion types — using fictional brand 
 | DHL Parcel Center Osterweddingen | 52°02'58.79"N 11°35'37.63"E | 4/7/2025 |
 | KiK Logistik GmbH Bönen | 51°36'35.58"N 7°46'50.82"E | 4/4/2025 |
 | IKEA Dortmund | 51°29'34.96"N 7°22'08.01"E | 5/28/2023 |
-| PENNY Zentrallager Cologne | 50°58'40.95"N 6°50'37.21"E | [verify from screenshot] |
-| EDEKA Logistik Oberhausen | 51°31'29.40"N 6°49'05.14"E | [verify from screenshot] |
+| PENNY Zentrallager Cologne | 50°58'40.95"N 6°50'37.21"E | - |
+| EDEKA Logistik Oberhausen | 51°31'29.40"N 6°49'05.14"E | - |
 
 *All coordinates extracted from Google Earth camera metadata visible in screenshots. Imagery © Google, used for non-commercial research purposes with attribution per Google's geoguidelines.*
 
