@@ -145,6 +145,36 @@ Schematic visuals illustrating the three fusion types — using fictional brand 
 *All coordinates extracted from Google Earth camera metadata visible in screenshots. Imagery © Google, used for non-commercial research purposes with attribution per Google's geoguidelines.*
 
 ---
+### Aerial Imagery — Visual Evidence
+
+The following images are from the survey. All imagery © Google Earth, 
+used for non-commercial research purposes with attribution per Google's 
+geoguidelines.
+
+**Type A — Fleet-carried brand signal**
+
+DHL Parcel Center Osterweddingen — aerial view (697m altitude, 4/7/2025)
+![DHL Osterweddingen Aerial](./urban-scale-evidence/aerial-imagery/DHL_Osterweddingen_aerial.png)
+
+DHL Parcel Center Osterweddingen — oblique view (206m altitude, 4/7/2025)
+![DHL Osterweddingen Oblique](./urban-scale-evidence/aerial-imagery/DHL_Osterweddingen_oblique.png)
+
+PENNY Zentrallager Cologne — aerial view
+![PENNY Cologne Aerial](./urban-scale-evidence/aerial-imagery/PENNY_Cologne_aerial.png)
+
+**Type B — Envelope-carried brand signal**
+
+KiK Logistik GmbH Bönen — oblique view (542m altitude, 4/4/2025)
+![KiK Bonen Oblique](./urban-scale-evidence/aerial-imagery/KiK_Bonen_oblique.png)
+
+IKEA Dortmund — oblique view (174m altitude, 5/28/2023)
+![IKEA Dortmund Oblique](./urban-scale-evidence/aerial-imagery/IKEA_Dortmund_oblique.png)
+
+**Type C — Hybrid**
+
+EDEKA Logistik Oberhausen — oblique view (220m altitude)
+![EDEKA Oberhausen Oblique](./urban-scale-evidence/aerial-imagery/EDEKA_Oberhausen_oblique.png)
+---
 
 ## System Architecture
 
