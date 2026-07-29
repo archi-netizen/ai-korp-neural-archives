@@ -84,7 +84,7 @@ I analyzed the primary workshop render using **Amazon Rekognition** to extract a
 
 **Raw Data Archive:**
 
-Download the verified architectural taxonomy: [Master Label List (JSON)](./Asset_2_Rekognition_Raw.json)
+Download the verified architectural taxonomy: [Master Label List (JSON)](./neural-asset-archives/classification-pipeline/industrial-workshop-test/Asset_2_Rekognition_Raw.json)
 
 ---
 
