@@ -1,0 +1,381 @@
+{
+    "Labels": [
+        {
+            "Name": "Architecture",
+            "Confidence": 99.92996215820312,
+            "Instances": [],
+            "Parents": [],
+            "Aliases": [],
+            "Categories": [
+                {
+                    "Name": "Buildings and Architecture"
+                }
+            ]
+        },
+        {
+            "Name": "Building",
+            "Confidence": 99.92996215820312,
+            "Instances": [
+                {
+                    "BoundingBox": {
+                        "Width": 0.9980322122573853,
+                        "Height": 0.998830258846283,
+                        "Left": 0.001967777032405138,
+                        "Top": 0.0011697984300553799
+                    },
+                    "Confidence": 99.84525299072266
+                }
+            ],
+            "Parents": [
+                {
+                    "Name": "Architecture"
+                }
+            ],
+            "Aliases": [],
+            "Categories": [
+                {
+                    "Name": "Buildings and Architecture"
+                }
+            ]
+        },
+        {
+            "Name": "Factory",
+            "Confidence": 99.92996215820312,
+            "Instances": [],
+            "Parents": [
+                {
+                    "Name": "Architecture"
+                },
+                {
+                    "Name": "Building"
+                }
+            ],
+            "Aliases": [],
+            "Categories": [
+                {
+                    "Name": "Buildings and Architecture"
+                }
+            ]
+        },
+        {
+            "Name": "Person",
+            "Confidence": 98.66163635253906,
+            "Instances": [
+                {
+                    "BoundingBox": {
+                        "Width": 0.04039425775408745,
+                        "Height": 0.21589764952659607,
+                        "Left": 0.37746483087539673,
+                        "Top": 0.6751862168312073
+                    },
+                    "Confidence": 98.66163635253906
+                },
+                {
+                    "BoundingBox": {
+                        "Width": 0.033201202750205994,
+                        "Height": 0.18678274750709534,
+                        "Left": 0.4267619848251343,
+                        "Top": 0.6624608039855957
+                    },
+                    "Confidence": 98.48565673828125
+                },
+                {
+                    "BoundingBox": {
+                        "Width": 0.04346105828881264,
+                        "Height": 0.22160100936889648,
+                        "Left": 0.32303184270858765,
+                        "Top": 0.7062103152275085
+                    },
+                    "Confidence": 98.2876968383789
+                },
+                {
+                    "BoundingBox": {
+                        "Width": 0.03613445907831192,
+                        "Height": 0.10660500824451447,
+                        "Left": 0.297844260931015,
+                        "Top": 0.6542791724205017
+                    },
+                    "Confidence": 98.17959594726562
+                },
+                {
+                    "BoundingBox": {
+                        "Width": 0.04013381898403168,
+                        "Height": 0.0923270434141159,
+                        "Left": 0.34024307131767273,
+                        "Top": 0.6429356932640076
+                    },
+                    "Confidence": 97.45459747314453
+                }
+            ],
+            "Parents": [],
+            "Aliases": [
+                {
+                    "Name": "Human"
+                }
+            ],
+            "Categories": [
+                {
+                    "Name": "Person Description"
+                }
+            ]
+        },
+        {
+            "Name": "Floor",
+            "Confidence": 95.42036437988281,
+            "Instances": [],
+            "Parents": [],
+            "Aliases": [],
+            "Categories": [
+                {
+                    "Name": "Home and Indoors"
+                }
+            ]
+        },
+        {
+            "Name": "Indoors",
+            "Confidence": 84.57575225830078,
+            "Instances": [],
+            "Parents": [],
+            "Aliases": [],
+            "Categories": [
+                {
+                    "Name": "Home and Indoors"
+                }
+            ]
+        },
+        {
+            "Name": "Manufacturing",
+            "Confidence": 72.88946533203125,
+            "Instances": [],
+            "Parents": [
+                {
+                    "Name": "Architecture"
+                },
+                {
+                    "Name": "Building"
+                },
+                {
+                    "Name": "Factory"
+                }
+            ],
+            "Aliases": [],
+            "Categories": [
+                {
+                    "Name": "Tools and Machinery"
+                }
+            ]
+        },
+        {
+            "Name": "Flooring",
+            "Confidence": 70.9183578491211,
+            "Instances": [],
+            "Parents": [
+                {
+                    "Name": "Floor"
+                }
+            ],
+            "Aliases": [],
+            "Categories": [
+                {
+                    "Name": "Home and Indoors"
+                }
+            ]
+        },
+        {
+            "Name": "Brewery",
+            "Confidence": 70.22319793701172,
+            "Instances": [],
+            "Parents": [
+                {
+                    "Name": "Architecture"
+                },
+                {
+                    "Name": "Building"
+                },
+                {
+                    "Name": "Factory"
+                }
+            ],
+            "Aliases": [],
+            "Categories": [
+                {
+                    "Name": "Buildings and Architecture"
+                }
+            ]
+        },
+        {
+            "Name": "Warehouse",
+            "Confidence": 57.213138580322266,
+            "Instances": [],
+            "Parents": [
+                {
+                    "Name": "Architecture"
+                },
+                {
+                    "Name": "Building"
+                }
+            ],
+            "Aliases": [],
+            "Categories": [
+                {
+                    "Name": "Transport and Logistics"
+                }
+            ]
+        },
+        {
+            "Name": "House",
+            "Confidence": 56.780330657958984,
+            "Instances": [],
+            "Parents": [
+                {
+                    "Name": "Architecture"
+                },
+                {
+                    "Name": "Building"
+                },
+                {
+                    "Name": "Housing"
+                }
+            ],
+            "Aliases": [],
+            "Categories": [
+                {
+                    "Name": "Buildings and Architecture"
+                }
+            ]
+        },
+        {
+            "Name": "Housing",
+            "Confidence": 56.780330657958984,
+            "Instances": [],
+            "Parents": [
+                {
+                    "Name": "Architecture"
+                },
+                {
+                    "Name": "Building"
+                }
+            ],
+            "Aliases": [],
+            "Categories": [
+                {
+                    "Name": "Buildings and Architecture"
+                }
+            ]
+        },
+        {
+            "Name": "Loft",
+            "Confidence": 56.780330657958984,
+            "Instances": [],
+            "Parents": [
+                {
+                    "Name": "Architecture"
+                },
+                {
+                    "Name": "Building"
+                },
+                {
+                    "Name": "House"
+                },
+                {
+                    "Name": "Housing"
+                },
+                {
+                    "Name": "Indoors"
+                },
+                {
+                    "Name": "Room"
+                }
+            ],
+            "Aliases": [],
+            "Categories": [
+                {
+                    "Name": "Buildings and Architecture"
+                }
+            ]
+        },
+        {
+            "Name": "Room",
+            "Confidence": 56.780330657958984,
+            "Instances": [],
+            "Parents": [
+                {
+                    "Name": "Indoors"
+                }
+            ],
+            "Aliases": [],
+            "Categories": [
+                {
+                    "Name": "Home and Indoors"
+                }
+            ]
+        },
+        {
+            "Name": "Staircase",
+            "Confidence": 56.06688690185547,
+            "Instances": [],
+            "Parents": [
+                {
+                    "Name": "Architecture"
+                },
+                {
+                    "Name": "Building"
+                },
+                {
+                    "Name": "House"
+                },
+                {
+                    "Name": "Housing"
+                }
+            ],
+            "Aliases": [],
+            "Categories": [
+                {
+                    "Name": "Home and Indoors"
+                }
+            ]
+        },
+        {
+            "Name": "Workshop",
+            "Confidence": 55.40890121459961,
+            "Instances": [],
+            "Parents": [
+                {
+                    "Name": "Architecture"
+                },
+                {
+                    "Name": "Building"
+                },
+                {
+                    "Name": "Factory"
+                },
+                {
+                    "Name": "Manufacturing"
+                }
+            ],
+            "Aliases": [],
+            "Categories": [
+                {
+                    "Name": "Tools and Machinery"
+                }
+            ]
+        },
+        {
+            "Name": "Interior Design",
+            "Confidence": 55.273075103759766,
+            "Instances": [],
+            "Parents": [
+                {
+                    "Name": "Indoors"
+                }
+            ],
+            "Aliases": [],
+            "Categories": [
+                {
+                    "Name": "Home and Indoors"
+                }
+            ]
+        }
+    ],
+    "LabelModelVersion": "3.0"
+}
