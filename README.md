@@ -108,6 +108,7 @@ Six logistics and retail facilities were surveyed using Google Earth aerial and 
 | IKEA Dortmund | IKEA | Type B — Envelope-carried | Blue/yellow envelope, roof lettering |
 | PENNY Zentrallager, Cologne | PENNY | Type A — Fleet-carried | Red trucks, neutral envelope |
 | EDEKA Logistik Oberhausen | EDEKA | Type C — Hybrid | Architectural envelope + brand mark |
+| DHL Zustellbasis Münster-Nord | DHL | Type C — Hybrid | Yellow fleet + branded envelope elements |
 
 ### Brand-Architecture Fusion Typology
 
@@ -141,6 +142,7 @@ Schematic visuals illustrating the three fusion types — using fictional brand 
 | IKEA Dortmund | 51°29'34.96"N 7°22'08.01"E | 5/28/2023 |
 | PENNY Zentrallager Cologne | 50°58'40.95"N 6°50'37.21"E | - |
 | EDEKA Logistik Oberhausen | 51°31'29.40"N 6°49'05.14"E | - |
+| DHL Zustellbasis Münster-Nord | 52°00'29.36"N 7°40'05.49"E | 6/30/2025 |
 
 *All coordinates extracted from Google Earth camera metadata visible in screenshots. Imagery © Google, used for non-commercial research purposes with attribution per Google's geoguidelines.*
 
@@ -153,27 +155,30 @@ geoguidelines.
 
 **Type A — Fleet-carried brand signal**
 
-DHL Parcel Center Osterweddingen — aerial view (697m altitude, 4/7/2025)
+*DHL Parcel Center Osterweddingen — aerial view (696m altitude, 4/7/2025)*
 ![DHL Osterweddingen Aerial](./urban-scale-evidence/aerial-imagery/DHL_Osterweddingen_aerial.png)
 
-DHL Parcel Center Osterweddingen — oblique view (206m altitude, 4/7/2025)
+*DHL Parcel Center Osterweddingen — oblique view (253m altitude)*
 ![DHL Osterweddingen Oblique](./urban-scale-evidence/aerial-imagery/DHL_Osterweddingen_oblique.png)
 
-PENNY Zentrallager Cologne — aerial view
+*PENNY Zentrallager Cologne — aerial view (149m altitude)*
 ![PENNY Cologne Aerial](./urban-scale-evidence/aerial-imagery/PENNY_Cologne_aerial.png)
 
 **Type B — Envelope-carried brand signal**
 
-KiK Logistik GmbH Bönen — oblique view (542m altitude, 4/4/2025)
+*KiK Logistik GmbH Bönen — oblique view (343m altitude)*
 ![KiK Bonen Oblique](./urban-scale-evidence/aerial-imagery/KiK_Bonen_oblique.png)
 
-IKEA Dortmund — oblique view (174m altitude, 5/28/2023)
+*IKEA Dortmund — oblique view (178m altitude, 5/28/2023)*
 ![IKEA Dortmund Oblique](./urban-scale-evidence/aerial-imagery/IKEA_Dortmund_oblique.png)
 
 **Type C — Hybrid**
 
-EDEKA Logistik Oberhausen — oblique view (220m altitude, 2025)
+*EDEKA Logistik Oberhausen — oblique view (259m altitude, 5/26/2023)*
 ![EDEKA Oberhausen Oblique](./urban-scale-evidence/aerial-imagery/EDEKA_Oberhausen_oblique.png)
+
+*DHL Zustellbasis Münster-Nord, Münster-Ost — oblique view (111m altitude, 6/30/2025)*
+![DHL Munster Nord Hybrid](./urban-scale-evidence/aerial-imagery/DHL_Munster_Nord_hybrid.png)
 
 ---
 
