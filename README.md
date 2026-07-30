@@ -139,7 +139,7 @@ single street-level scene — facade, fleet, hoarding, and gatehouse sharing
 one fictional colour system. No logos or text. Colour alone performs all 
 identification work.
 
-![Fig 4 Branded Logistics Corridor](./urban-scale-evidence/generated-visuals/Fig4_branded_logistics_corridor.png)
+![Fig 4 Branded Logistics Corridor](/urban-scale-evidence/generated-visuals/Fig4_branded_logistics_corridor.png)
 
 *Fig. 4 — AI-generated schematic. Fictional ochre colour system. 
 No real brand trade dress reproduced. Google Gemini Imagen, 2026.*
