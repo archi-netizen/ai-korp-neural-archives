@@ -39,11 +39,15 @@ review and disclosure of data provenance.
 ## Regulatory Alignment
 
 The framework is designed in alignment with the EU AI Act 
-(Regulation EU 2024/1689, in force 1 August 2024):
+(Regulation (EU) 2024/1689), which entered into force on 1 August 2024 and 
+applies in stages through 2027. The two provisions AI-KORP maps to directly 
+have their own application dates, separate from the Regulation's entry into 
+force:
 
 ### Article 4 — AI Literacy
-Providers and deployers of AI systems must ensure their staff have 
-sufficient AI literacy to operate systems responsibly.
+*Applicable since 2 February 2025.* Providers and deployers of AI systems 
+must ensure their staff have sufficient AI literacy to operate systems 
+responsibly.
 
 **AI-KORP response:** The Basket axis operationalises literacy requirements 
 at practitioner level. Knowing which basket a tool belongs to, and at what 
@@ -51,7 +55,8 @@ Ripeness level its outputs sit, constitutes the minimum literacy threshold
 for responsible use in AEC and brand design practice.
 
 ### Article 50 — Transparency and Disclosure
-Certain AI-generated content must be disclosed as such to end users.
+*Applicable from 2 August 2026.* Certain AI-generated content must be 
+disclosed as such to end users.
 
 **AI-KORP response:** The Ripeness axis operationalises disclosure 
 requirements. A Stored ● classification confirms that the output has been 
