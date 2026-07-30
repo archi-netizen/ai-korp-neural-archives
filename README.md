@@ -98,7 +98,7 @@ If a generative or classification AI system is trained on aerial imagery of logi
 
 ### Evidence: Aerial Imagery Survey
 
-Six logistics and retail facilities were surveyed using Google Earth aerial and oblique imagery (capture dates: 2023–2025). All locations are publicly observable built environment. Imagery is cited by facility name, region, and capture date per Google's attribution terms and is not redistributed in this repository.
+Six logistics and retail facilities were surveyed using Google Earth aerial and oblique imagery (capture dates: 2023–2025). All locations are publicly observable built environment. Imagery is cited by facility name, region, and coordinates per Google's attribution terms. Screenshots are reproduced below for research documentation, with source and coordinates attributed to each.
 
 | Facility | Brand | Fusion Type | Signal Carrier |
 | :--- | :--- | :--- | :--- |
