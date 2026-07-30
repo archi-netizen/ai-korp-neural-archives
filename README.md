@@ -103,10 +103,9 @@ Six logistics and retail facilities were surveyed using Google Earth aerial and 
 | Facility | Brand | Fusion Type | Signal Carrier |
 | :--- | :--- | :--- | :--- |
 | DHL Parcel Center Osterweddingen | DHL | Type A — Fleet-carried | Yellow trailers, neutral envelope |
-| DHL Zustellbasis Münster-Nord | DHL | Type A — Fleet-carried | Yellow trailers, neutral envelope |
+| PENNY Zentrallager, Cologne | PENNY | Type A — Fleet-carried | Red trucks, neutral envelope |
 | KiK Logistik GmbH, Bönen | KiK | Type B — Envelope-carried | Red facade and roof |
 | IKEA Dortmund | IKEA | Type B — Envelope-carried | Blue/yellow envelope, roof lettering |
-| PENNY Zentrallager, Cologne | PENNY | Type A — Fleet-carried | Red trucks, neutral envelope |
 | EDEKA Logistik Oberhausen | EDEKA | Type C — Hybrid | Architectural envelope + brand mark |
 | DHL Zustellbasis Münster-Nord | DHL | Type C — Hybrid | Yellow fleet + branded envelope elements |
 
@@ -147,14 +146,14 @@ No real brand trade dress reproduced. Google Gemini Imagen, 2026.*
 
 ### Coordinates and Attribution
 
-| Facility | Coordinates | Capture Date |
-| :--- | :--- | :--- |
-| DHL Parcel Center Osterweddingen | 52°02'58.79"N 11°35'37.63"E | 4/7/2025 |
-| KiK Logistik GmbH Bönen | 51°36'35.58"N 7°46'50.82"E | 4/4/2025 |
-| IKEA Dortmund | 51°29'34.96"N 7°22'08.01"E | 5/28/2023 |
-| PENNY Zentrallager Cologne | 50°58'40.95"N 6°50'37.21"E | - |
-| EDEKA Logistik Oberhausen | 51°31'29.40"N 6°49'05.14"E | - |
-| DHL Zustellbasis Münster-Nord | 52°00'29.36"N 7°40'05.49"E | 6/30/2025 |
+| Facility | Coordinates |
+| :--- | :--- |
+| DHL Parcel Center Osterweddingen | 52°03'00.41"N 11°36'02.00"E |
+| PENNY Zentrallager Cologne | 50°58'43.78"N 6°50'27.47"E |
+| KiK Logistik GmbH Bönen | 51°36'35.61"N 7°46'52.65"E |
+| IKEA Dortmund | 51°29'31.22"N 7°22'00.94"E |
+| EDEKA Logistik Oberhausen | 51°31'32.37"N 6°49'14.22"E |
+| DHL Zustellbasis Münster-Nord | 52°00'28.54"N 7°40'09.09"E |
 
 *All coordinates extracted from Google Earth camera metadata visible in screenshots. Imagery © Google, used for non-commercial research purposes with attribution per Google's geoguidelines.*
 
@@ -167,7 +166,7 @@ geoguidelines.
 
 **Type A — Fleet-carried brand signal**
 
-*DHL Parcel Center Osterweddingen — aerial view (696m altitude, 4/7/2025)*
+*DHL Parcel Center Osterweddingen — aerial view (696m altitude)*
 ![DHL Osterweddingen Aerial](./urban-scale-evidence/aerial-imagery/DHL_Osterweddingen_aerial.png)
 
 *DHL Parcel Center Osterweddingen — oblique view (253m altitude)*
@@ -181,15 +180,15 @@ geoguidelines.
 *KiK Logistik GmbH Bönen — oblique view (343m altitude)*
 ![KiK Bonen Oblique](./urban-scale-evidence/aerial-imagery/KiK_Bonen_oblique.png)
 
-*IKEA Dortmund — oblique view (178m altitude, 5/28/2023)*
+*IKEA Dortmund — oblique view (178m altitude)*
 ![IKEA Dortmund Oblique](./urban-scale-evidence/aerial-imagery/IKEA_Dortmund_oblique.png)
 
 **Type C — Hybrid**
 
-*EDEKA Logistik Oberhausen — oblique view (259m altitude, 5/26/2023)*
+*EDEKA Logistik Oberhausen — oblique view (259m altitude)*
 ![EDEKA Oberhausen Oblique](./urban-scale-evidence/aerial-imagery/EDEKA_Oberhausen_oblique.png)
 
-*DHL Zustellbasis Münster-Nord, Münster-Ost — oblique view (111m altitude, 6/30/2025)*
+*DHL Zustellbasis Münster-Nord, Münster-Ost — oblique view (111m altitude)*
 ![DHL Munster Nord Hybrid](./urban-scale-evidence/aerial-imagery/DHL_Munster_Nord_hybrid.png)
 
 ---
