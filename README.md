@@ -7,7 +7,7 @@
 
 This repository serves as a technical log for a proof-of-concept study. The objective is to evaluate how cloud-native AI services can transition static architectural and branding archives into "Active Knowledge Bases."
 
-By utilizing a serverless pipeline, we move from manual filing to a system that "understands" architectural intent, material composition, and brand application.
+The long-term goal is a serverless pipeline that moves from manual filing to a system that "understands" architectural intent, material composition, and brand application. At the current stage, the classification step (Amazon Rekognition) has been tested manually against three sample assets; the automated ingestion and synthesis stages are documented as proposed architecture — see Section 3.
 
 This research has been extended to urban scale, investigating how brand and architecture are already fused in the logistics landscape of Germany — and what that means for any generative AI system trained on aerial imagery of the built environment.
 
@@ -35,20 +35,22 @@ Ripeness evaluates not what a tool can generate, but what sovereignty, verificat
 
 ## 3. The Technical Stack (AWS)
 
-To ensure professional data sovereignty, the pipeline is built on a modular, private cloud environment:
+The pipeline's intended architecture uses a modular, private cloud environment:
 
-| Service | Role |
-| :--- | :--- |
-| **Amazon S3** | Object storage for high-resolution design assets. |
-| **AWS Lambda** | Event-driven logic to trigger analysis on upload. |
-| **Amazon Rekognition** | Computer vision for label detection (Materials, Objects, Styles). |
-| **Amazon Bedrock** | LLM reasoning to synthesize raw tags into design summaries. |
+| Service | Role | Status |
+| :--- | :--- | :--- |
+| **Amazon S3** | Object storage for high-resolution design assets. | Proposed |
+| **AWS Lambda** | Event-driven logic to trigger analysis on upload. | Proposed |
+| **Amazon Rekognition** | Computer vision for label detection (Materials, Objects, Styles). | Tested (console, manual) |
+| **Amazon Bedrock** | LLM reasoning to synthesize raw tags into design summaries. | Proposed |
+
+Only the Rekognition stage has been run against real assets so far, via the AWS console rather than an automated trigger. See Section 5 and `neural-asset-archives/classification-pipeline/industrial-workshop-test/README.md` for the full methodology.
 
 ---
 
 ## 4. Visual Study & Analysis
 
-Below are the sample inputs used to test the pipeline's granularity:
+Below are the three sample inputs used to test the pipeline's granularity:
 
 ### Asset A: Brand Archetype
 *Testing text detection and graphic consistency.*
@@ -60,31 +62,41 @@ Below are the sample inputs used to test the pipeline's granularity:
 
 ![Workshop Render](./neural-asset-archives/classification-pipeline/industrial-workshop-test/Asset_2_Spatial.jpg)
 
+### Asset C: Material Context
+*Testing surface and material condition recognition.*
+
+![Material Detail](./neural-asset-archives/classification-pipeline/industrial-workshop-test/Asset_3_Material.jpg)
+
+Full Rekognition label tables, Basket assignments, and Ripeness status for all three assets are documented in `neural-asset-archives/classification-pipeline/industrial-workshop-test/README.md`.
+
 ---
 
 ## 5. Compliance & Governance
 
 This research is conducted with a "Security-First" mindset:
 
-- **Data Privacy:** All processing occurs within a private VPC.
-- **Ethics:** Aligned with the **EU AI Act (Regulation EU 2024/1689)** regarding transparent data processing and human-in-the-loop verification.
-- **Article 4:** AI literacy obligations — the AI-KORP Ripeness axis operationalizes this at practitioner level.
-- **Article 50:** Disclosure obligations — applied here to classification and generative outputs at both building and urban scale.
+- **Data Privacy:** Rekognition testing was performed through the AWS console under the researcher's own account; no assets were submitted to a public AI training loop.
+- **Ethics:** Aligned with the **EU AI Act (Regulation (EU) 2024/1689)** regarding transparent data processing and human-in-the-loop verification.
+- **Article 4** (applicable since 2 February 2025) — AI literacy obligations: the AI-KORP Ripeness axis operationalizes this at practitioner level.
+- **Article 50** (applicable from 2 August 2026) — Disclosure obligations: applied here to classification and generative outputs at both building and urban scale.
 
 ### 🔍 Live Audit: Machine Perception
 
-I analyzed the primary workshop render using **Amazon Rekognition** to extract a spatial taxonomy.
+The spatial-context asset (Asset B) was analyzed using **Amazon Rekognition** to extract a spatial taxonomy.
 
-**Top High-Confidence Labels:**
+**Top Rekognition labels — Asset B (Spatial):**
 
-* **Architecture:** 99.9%
-* **Factory / Industrial Building:** 99.9%
-* **Person:** 98.6% (Validating human scale)
-* **Manufacturing:** 72.8%
+* **Architecture:** 99.8%
+* **Building:** 99.8%
+* **Factory:** 99.8%
+* **Person:** 98.6%
+* **Manufacturing:** 64.9%
+
+Assets A (Brand Archetype) and C (Material Context) were tested the same way; their full label sets are in the sub-README rather than duplicated here.
 
 **Raw Data Archive:**
 
-Download the verified architectural taxonomy: [Master Label List (JSON)](./neural-asset-archives/classification-pipeline/industrial-workshop-test/Asset_2_Rekognition_Raw.json)
+Download the verified Asset B taxonomy: [Master Label List (JSON)](./neural-asset-archives/classification-pipeline/industrial-workshop-test/Asset_2_Rekognition_Raw.json)
 
 ---
 
@@ -139,7 +151,7 @@ single street-level scene — facade, fleet, hoarding, and gatehouse sharing
 one fictional colour system. No logos or text. Colour alone performs all 
 identification work.
 
-![Fig 4 Branded Logistics Corridor](/urban-scale-evidence/generated-visuals/Fig4_branded_logistics_corridor.png)
+![Fig 4 Branded Logistics Corridor](./urban-scale-evidence/generated-visuals/Fig4_branded_logistics_corridor.png)
 
 *Fig. 4 — AI-generated schematic. Fictional ochre colour system. 
 No real brand trade dress reproduced. Google Gemini Imagen, 2026.*
@@ -193,9 +205,9 @@ geoguidelines.
 
 ---
 
-## System Architecture
+## System Architecture (proposed)
 
-To ensure professional-grade security, the pipeline is built on a modular AWS environment. This "sandboxed" approach ensures that design assets remain private and are excluded from public AI training loops.
+To ensure professional-grade security, the pipeline's intended architecture uses a modular AWS environment. This "sandboxed" approach is designed so that design assets remain private and are excluded from public AI training loops.
 
 ```mermaid
 graph TD
@@ -226,6 +238,8 @@ graph TD
     style D fill:#3F8624,stroke:#232F3E,color:#fff
     style E fill:#D05C45,stroke:#232F3E,color:#fff
 ```
+
+Of this diagram, only stage D (Amazon Rekognition) has been run against real assets so far, and manually via the console rather than through the S3/Lambda trigger shown. Stages B, C, E, and F represent the pipeline's proposed next stage of development.
 
 ---
 
