@@ -50,22 +50,28 @@ Only the Rekognition stage has been run against real assets so far, via the AWS 
 
 ## 4. Visual Study & Analysis
 
-Below are the three sample inputs used to test the pipeline's granularity:
+Below are the three sample inputs used to test the pipeline's granularity. All three are AI-generated test images (Google Gemini Imagen), created specifically as proof-of-concept content rather than real client or site material.
 
 ### Asset A: Brand Archetype
 *Testing text detection and graphic consistency.*
 
 ![Brand Toolkit](./neural-asset-archives/classification-pipeline/industrial-workshop-test/Asset_1_Branding.jpg)
 
+*AI-generated (Google Gemini Imagen). Fictional brand materials created for this test.*
+
 ### Asset B: Spatial Context (Industrial Workshop)
 *Testing complex environment recognition (Gantries, Concrete, Workflow).*
 
 ![Workshop Render](./neural-asset-archives/classification-pipeline/industrial-workshop-test/Asset_2_Spatial.jpg)
 
+*AI-generated (Google Gemini Imagen). Fictional workshop interior created for this test.*
+
 ### Asset C: Material Context
 *Testing surface and material condition recognition.*
 
 ![Material Detail](./neural-asset-archives/classification-pipeline/industrial-workshop-test/Asset_3_Material.jpg)
+
+*AI-generated (Google Gemini Imagen). Fictional material detail created for this test.*
 
 Full Rekognition label tables, Basket assignments, and Ripeness status for all three assets are documented in `neural-asset-archives/classification-pipeline/industrial-workshop-test/README.md`.
 
