@@ -78,3 +78,127 @@ Bedrock synthesis (B, C, E) have not yet been run.
 ---
 
 ## Folder Structure
+
+neural-asset-archives/
+├── README.md
+└── classification-pipeline/
+└── industrial-workshop-test/
+├── README.md
+├── Asset_1_Branding.jpg
+├── Asset_2_Rekognition_Raw.json
+├── Asset_2_Spatial.jpg
+├── Asset_3_Material.jpg
+├── metadata_sample.json
+└── results/
+
+---
+
+## Assets Tested
+
+### Asset A: Brand Archetype
+**File:** `Asset_1_Branding.jpg`
+**Basket:** Creative
+**Test objective:** Text detection, graphic consistency, brand mark recognition.
+**Ripeness outcome:** Sorting ◐ — classifier identifies graphic and typographic 
+elements but cannot verify data provenance or licensing status of training 
+corpus. Human review required before design use.
+
+**Rekognition labels:**
+
+| Label | Confidence |
+| :--- | :--- |
+| Diagram | 90.6% |
+| Business Card | 82.8% |
+| Paper | 82.8% |
+| Text | 82.8% |
+| Chart | 56.4% |
+| Plan | 56.4% |
+
+---
+
+### Asset B: Spatial Context — Industrial Workshop
+**File:** `Asset_2_Spatial.jpg`
+**Basket:** Spatial + Intellectual
+**Test objective:** Complex environment recognition — gantries, concrete, 
+workflow, human scale.
+**Ripeness outcome:** Stored ● — high-confidence classification across 
+architectural, industrial, and human-scale labels. Results verified and 
+disclosed. See classification-pipeline/industrial-workshop-test/ for full 
+methodology and raw JSON output.
+
+**Rekognition labels:**
+
+| Label | Confidence |
+| :--- | :--- |
+| Architecture | 99.8% |
+| Building | 99.8% |
+| Factory | 99.8% |
+| Person | 98.6% |
+| Floor | 95.3% |
+| Flooring | 80.6% |
+| Indoors | 73.7% |
+| Manufacturing | 64.9% |
+
+---
+
+### Asset C: Material Context
+**File:** `Asset_3_Material.jpg`
+**Basket:** Spatial *(tentative — flagged for confirmation, not yet reviewed against the framework's criteria)*
+**Test objective:** Surface and material condition recognition.
+**Ripeness outcome:** *(not yet assigned — pending human review)*
+
+**Rekognition labels:**
+
+| Label | Confidence |
+| :--- | :--- |
+| Corrosion | 89.9% |
+| Rust | 89.9% |
+| Door | 59.1% |
+
+---
+
+## Key Finding
+
+Brand and architecture are not two separate signal layers in the built 
+environment. At building scale, a company's colour, mark, and typographic 
+system travel identically from logo to facade to fleet. The classifier 
+learns from that fused layer whether or not the learning is governed.
+
+This finding, established at building scale through the Neural Asset Archives 
+pipeline, is extended to urban and aerial scale in the Urban-Scale Evidence 
+section of this repository.
+
+---
+
+## Governance and Compliance
+
+Rekognition testing was performed through the AWS console under the 
+researcher's own account; no assets were submitted to a public AI training 
+loop. Research is conducted in alignment with:
+
+- **EU AI Act, Article 4** (applicable since 2 February 2025) — AI literacy: 
+  the Ripeness axis operationalises practitioner-level literacy requirements
+- **EU AI Act, Article 50** (applicable from 2 August 2026) — Disclosure: 
+  classification and generative outputs are flagged with their Ripeness 
+  status before design use
+- **Data sovereignty:** assets were processed under the researcher's own 
+  AWS account and are not submitted to third-party training pipelines
+
+---
+
+## Related Publication
+
+This pipeline is documented as the methods section of:
+
+**Mate, K. (2026). Sorting the Harvest at Scale: A Governance Framework 
+for Generative AI, from Brand Systems to Urban Futures. Zenodo. 
+https://doi.org/10.5281/zenodo.21460708**
+
+Intended for submission to the Special Issue *Generative Urbanisms: 
+Artificial Intelligence and the Design of Urban Futures*, Architectural 
+Intelligence (Springer Nature). Submission deadline: 30 November 2026.
+
+---
+
+*Kaushambi Mate · Independent Researcher · 
+ORCID: https://orcid.org/0009-0008-5892-3576*
