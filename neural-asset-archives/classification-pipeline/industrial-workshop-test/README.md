@@ -79,8 +79,7 @@ Bedrock synthesis (B, C, E) have not yet been run.
 
 ## Folder Structure
 
-​```
-neural-asset-archives/
+​neural-asset-archives/
 ├── README.md
 └── classification-pipeline/
     └── industrial-workshop-test/
@@ -91,7 +90,6 @@ neural-asset-archives/
         ├── Asset_3_Material.jpg
         ├── metadata_sample.json
         └── results/
-​```
 ---
 
 ## Assets Tested
