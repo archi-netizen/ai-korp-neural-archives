@@ -77,21 +77,6 @@ Bedrock synthesis (B, C, E) have not yet been run.
 
 ---
 
-## Folder Structure
-
-​neural-asset-archives/
-├── README.md
-└── classification-pipeline/
-    └── industrial-workshop-test/
-        ├── README.md
-        ├── Asset_1_Branding.jpg
-        ├── Asset_2_Rekognition_Raw.json
-        ├── Asset_2_Spatial.jpg
-        ├── Asset_3_Material.jpg
-        ├── metadata_sample.json
-        └── results/
----
-
 ## Assets Tested
 
 ### Asset A: Brand Archetype
